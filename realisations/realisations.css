@@ -1,0 +1,131 @@
+body {
+    background-color: #606964;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 { color : white;
+    text-align: center;
+}
+
+.image-album 
+{
+    width: 20%;
+    height: 20%;
+}
+
+
+
+.centrage { 
+    text-align: center;
+    padding-top: 25%;
+}
+
+p{
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+hr {
+    border-color: rgba(185, 173, 173, 0.904);;
+    height: 10px;
+    width: 50%;
+    background-color: rgba(185, 173, 173, 0.904);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.pieddepage {
+    position: relative;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: #606964;
+     color: white;
+     text-align: center;
+     padding: 10px;
+ }
+
+ .nav-list { 
+    text-align:center;
+    padding: 0px 0px 40px;
+}
+
+.hr {
+    width: 80%;
+      text-align: center;
+      margin: auto;
+      margin-left: 30%;
+  }
+/*css de adel*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+header{
+    background-color: #606964;
+    height: 60px;
+}
+
+nav .nav-list .navi{ 
+    display: inline-block;
+    padding: 20px;
+}
+
+.nav-list .navi a {
+    color: white;
+}
+
+.fansite{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 5px 4px 4px black;
+    top: 7%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 230%);
+}
+
+
+footer{
+    position: absolute; bottom: 0; left: 0; right: 0;
+    display: inline-block;
+}
+
+.footer { 
+display: flex;
+justify-content: space-evenly;
+padding: 20px;
+font-size: 12px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.copyright{
+    border-top: 1px solid black;
+    text-align: center;
+    font-size: 12px;
+
+}
+
+a{ 
+    color: black;
+}
