@@ -14,12 +14,13 @@ ul, h2 {
     text-align: center;
    list-style-type: none;
 }
+/*centrage texte et enlever les points de la liste non-ordonnés*/
 
 h2 {
     text-decoration: underline;
     
 }
-
+/*souligner les titres h2*/
 ul {
     padding-bottom: 40px;
 }
@@ -38,9 +39,12 @@ a:hover {
     color: red;
 }
 
+/*couleur des liens + couleurs quand le site a deja été visité + couleur quand on passe la souris sur le lien*/
+
 .biographie {
     padding-top: 25%;
 }
+/* padding sur le titre h2 " biographie" */
 
  hr {
     border-color: rgba(185, 173, 173, 0.904);;
@@ -59,6 +63,8 @@ a:hover {
     margin-left: 20%;
 }
 
+/* taille, alignement et couleur de la bordure "hr" */
+
 p{ padding-top: 5%;
    padding-left: 20%;
    padding-right: 20%;
@@ -75,8 +81,9 @@ p{ padding-top: 5%;
      text-align: center;
      padding: 10px;
  }
-
-  /* css adel*/
+/* alignment  et couleur sur le footer*/
+ 
+/* css adel*/
 
   *{
     padding: 0;
