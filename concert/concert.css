@@ -10,15 +10,16 @@ body {
     height: 50%;
     padding-top: 2%;
 }
-
+/*images des 4 festivals sur la page concert*/
 a {
     font-size: 16px;
 }
+/*taille de la police des liens*/
+.premier-h2 { 
 
-.premier-h2 {
     padding-top: 28%;
 }
-
+/*classe pour calibrer le titre du premier festival*/
 .fnac1 , .fnac2 , .fnac3 , .fnac4 {
     font-size: 22px;
 }
@@ -28,7 +29,7 @@ a {
     text-align: center;
     
 }
-
+/* classe pour centrer tout le contenu de body*/
 p{ display: flex;
     justify-content: center;
     font-size: 25px;
@@ -49,6 +50,7 @@ p{ display: flex;
       margin: auto;
       margin-left: 30%;
   }
+/* couleur, taille et centrage de la balise hr pour creer des bordures entre chaque section*/
 
 a:link{
     color:black
@@ -57,14 +59,14 @@ a:link{
 a:hover { 
     color: red;
 }
-
+/*couleur des liens + couleur quand la souris passe dessus*/
 
 
 h1 {
     display:flex;
     justify-content: center;
 }
-
+/*centrer le titre h1*/
 .pieddepage {
     position: relative;
      left: 0;
@@ -75,14 +77,16 @@ h1 {
      text-align: center;
      padding: 10px;
  }
-
- .nav-list { 
+/*centrer + couleur pour le footer*/
+ 
+.nav-list { 
     text-align:center;
     padding: 0px 0px 40px;
 }
+/*aligner les liens de navigations*/
 
 
-/* css adel*/
+/* css de Asmaa ci dessous*/
 
 *{
     padding: 0;
@@ -150,6 +154,9 @@ a{
     color: black;
 }
 
+
+   
+    
 
 
 

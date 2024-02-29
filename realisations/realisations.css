@@ -14,20 +14,19 @@ h1 { color : white;
     width: 20%;
     height: 20%;
 }
-
+/*taille des images de pochettes d'album de booba*/
 
 
 .centrage { 
     text-align: center;
     padding-top: 25%;
 }
-
-p{
+/*centrer le main*/
+p {
     padding-left: 20%;
     padding-right: 20%;
     text-align: center;
     padding-bottom: 10px;
-
 }
 
 hr {
@@ -38,7 +37,13 @@ hr {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
+.hr {
+    width: 80%;
+      text-align: center;
+      margin: auto;
+      margin-left: 30%;
+  }
+/* couleur, taille et centrage de la balise hr pour creer des bordures entre chaque section*/
 .pieddepage {
     position: relative;
      left: 0;
@@ -49,19 +54,14 @@ hr {
      text-align: center;
      padding: 10px;
  }
-
+/*alignement et couleur du footer*/
  .nav-list { 
     text-align:center;
     padding: 0px 0px 40px;
 }
+/*alignement des liens de nav*/
 
-.hr {
-    width: 80%;
-      text-align: center;
-      margin: auto;
-      margin-left: 30%;
-  }
-/*css de adel*/
+/*css de Asmaa ci dessous*/
 
 
 *{
