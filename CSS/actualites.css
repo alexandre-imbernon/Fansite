@@ -1,0 +1,126 @@
+/* Comprends le header de la page ainsi que divers éléments, couleurs, text etc*/
+* {
+    padding: 0;
+    margin: 0;
+    /* Empêche les marges autres que les miennes d'interférer dans le document */
+}
+body {
+    background-color: #606964; 
+    color: black; 
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.text { 
+    font-size: large;
+}
+a {
+    color: white;
+    /* Couleur des liens */
+}
+a:link , a:hover , a:active {
+    color: black;
+    /* Respectivement, couleur du lien, du lien lorsqu'il est survolé et du lien lorsqu'il est cliqué */
+}
+a.colorlink:visited {
+    color:rgb(162, 162, 245);
+    /* Couleur du lien une fois déjà consulté (uniquement pour les liens d'articles) */
+}
+.fansite {
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 5px 4px 4px black;
+    top: 20%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 230%);
+    color: white;
+}
+header{
+    background-color: #606964;
+    height: 60px;
+}
+nav .nav-list .navi { 
+    display: inline-block;
+    padding: 20px;
+}
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    font-size: 16px;
+}
+.actubooba {
+    margin: 40px;
+    padding-left: 40px;
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30%;
+    
+}
+/* Comprends le coeur de la page */
+.groupeactu {
+    border-bottom: 1px gray solid;
+    border-top: 1px gray solid;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px;
+    width: 900px;
+    height: 600px;
+}
+.Actu1 {
+    border-bottom: 1px gray solid;
+    border-top: 1px gray solid;
+    padding-top: 1%;
+}
+.Actu2 , .Actu3 , .Actu4 , .Actu5 {
+    border-bottom: 1px gray solid;
+    padding-top: 1%;   
+}
+.pic1 , .pic2 , .pic3 , .pic4 , .pic5 {
+    height: 196px; 
+    width: 315px;
+    padding-left: 60%;
+}
+br {
+    line-height: 20px;
+}
+/* Comprends le footer de la page */
+footer {
+    padding-top: 75%;
+
+}
+.footer { 
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-size: 16px;
+    
+}
+.social {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.copyright {
+    border-top: 1px solid black;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+}
+
+.liens {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    color: black;
+}
+
+.liens2{
+    color: black;
+}

@@ -1,0 +1,149 @@
+/* Comprends le header de la page ainsi que divers éléments, couleur, text etc*/
+* {
+    padding: 0;
+    margin: 0;
+    /* Empêche les marges autres que les miennes d'interférer dans le document */
+}
+body {
+    background-color: #606964; 
+    color: black;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.text { 
+    font-size: large;
+}
+a {
+    color: white;
+    /* Couleur des liens */
+}
+.fansite { 
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 5px 4px 4px black;
+    top: 20%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 230%);
+    color: white;
+}
+header {
+    background-color: #606964;
+    height: 60px;
+}
+nav .nav-list .navi { 
+    display: inline-block;
+    padding: 20px;
+}
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    font-size: 16px;
+}
+/* Comprends le coeur de la page */
+.container {
+    padding-top: 35%;
+    padding-left: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* Colonnes*/
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; /* Lignes*/
+    gap: 1px; /* Réduction de l'espace entre les photos */
+    width: 40%; /* Taille du container */
+    height: 950px}
+        /* Propriétés de la mosaique */
+
+.container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cadre correctement l'image */
+}
+.vl {
+    border-left: 1px gray solid;
+    height: 900px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 450px;
+}
+.vid {
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: 50px;
+    top: 75%;
+    font-weight: 1000;
+    font-size: xx-large;
+}
+.vidéoitv {
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    margin-left: 50px;
+    top: 85%;
+}
+.vid2 {
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    margin-left: 442px;
+    top: 120%;
+    font-weight: 1000;
+    font-size: xx-large;
+}
+.vidéoconcert {
+    height: 200px;
+    position: absolute;
+    left: 51%;
+    margin-left: 250px;
+    top: 130%;
+    font-weight: 1000;
+}
+.vid3 {
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: 50px;
+    top: 165%;    
+    font-weight: 1000;
+    font-size: xx-large;
+}
+.vidéoclip {
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    margin-left: 50px;
+    top: 175%;
+    font-weight: 1000; 
+}
+/* Comprends le footer de la page */
+.footer { 
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-size: 16px;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.copyright {
+    border-top: 1px solid black;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+}
+.liens{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style-type: none;
+}
+
+.liens2{
+    color: black;
+}
