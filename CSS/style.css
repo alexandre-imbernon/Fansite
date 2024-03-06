@@ -12,13 +12,11 @@ h1 {
 ul, h2 {
     text-align: center;
    list-style-type: none;
+   padding-bottom: 30px;
 }
 /*centrage texte et enlever les points de la liste non-ordonnés*/
 
-h2 {
-    
-}
-/*souligner les titres h2*/
+
 
 
 
