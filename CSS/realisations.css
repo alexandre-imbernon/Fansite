@@ -38,10 +38,10 @@ hr {
     margin-bottom: 50px;
 }
 .hr {
-    width: 80%;
+    
       text-align: center;
-      margin: auto;
-      margin-left: 30%;
+      
+      margin-left: 35%;
   }
 /* couleur, taille et centrage de la balise hr pour creer des bordures entre chaque section*/
 .pieddepage {
